@@ -20,8 +20,9 @@ def init_database(host, user, port, database, password):
     return db
 
 def get_sql_chain(db):
-    groq_api_key = os.environ["GROQ_API_KEY"]
-    #groq_api_key = st.secrets["GROQ_API_KEY"]
+    #groq_api_key = os.environ["GROQ_API_KEY"]
+    groq_api_key = st.secrets["GROQ_API_KEY"]
+    
     template = """
     You are a data analyst at a company. You are interacting with a user who is asking you questions about the things in the database.
     Based on the table schema below, write a SQL query that would answer the user's question. Take the conversation history into account.
@@ -61,8 +62,8 @@ def get_sql_chain(db):
 
 
 def get_response(question:str, db:SQLDatabase, chat_history:list):
-    groq_api_key = os.environ["GROQ_API_KEY"]
-    #groq_api_key = st.secrets["GROQ_API_KEY"]
+    #groq_api_key = os.environ["GROQ_API_KEY"]
+    groq_api_key = st.secrets["GROQ_API_KEY"]
     
     sql_chain = get_sql_chain(db)
     template = """
@@ -105,6 +106,7 @@ if "chat_history" not in st.session_state:
 
 
 # Set up the Streamlit app
+
 #mysql_root_password = os.environ["MYSQL_ROOT_PASSWORD"]
 #mysql_root_password = st.secrets["MYSQL_ROOT_PASSWORD"]
 
