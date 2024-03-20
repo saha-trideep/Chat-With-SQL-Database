@@ -18,7 +18,7 @@ https://github.com/saha-trideep/Chat-With-SQL-Database/assets/115859105/fc1b39e9
 As a data analyst or enthusiast, accessing and analyzing data from databases can often be cumbersome, especially when dealing with SQL queries. The Chat with MySQL AI Assistant simplifies this process by allowing users to interact with the database using natural language, abstracting away the complexities of SQL querying.
 
 
-## Dataset Source
+## Dataset
 
 The dataset used in this project was obtained from Kaggle. It is available at [Jobs in Data Dataset on Kaggle](https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data).
 
