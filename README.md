@@ -48,9 +48,10 @@ To install and run the Chat with MySQL AI Assistant locally, follow these steps:
    ```bash
    pip install -r requirements.txt
    
-4.Run the Streamlit application:
-  ```bash
-  streamlit run app.py
+4. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+
 
 
 
