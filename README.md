@@ -7,7 +7,7 @@ https://github.com/saha-trideep/Chat-With-SQL-Database/assets/115859105/fc1b39e9
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Dataset Source](#datasetsource)
+- [Dataset](#dataset)
 - [Features](#features)
 - [Usage](#usage)
 - [Installation](#installation)
