@@ -20,8 +20,8 @@ def init_database(host, user, port, database, password):
     return db
 
 def get_sql_chain(db):
-    #groq_api_key = os.environ["GROQ_API_KEY"]
-    groq_api_key = st.secrets["GROQ_API_KEY"]
+    groq_api_key = os.environ["GROQ_API_KEY"]
+    #groq_api_key = st.secrets["GROQ_API_KEY"]
     
     template = """
     You are a data analyst at a company. You are interacting with a user who is asking you questions about the things in the database.
@@ -62,8 +62,8 @@ def get_sql_chain(db):
 
 
 def get_response(question:str, db:SQLDatabase, chat_history:list):
-    #groq_api_key = os.environ["GROQ_API_KEY"]
-    groq_api_key = st.secrets["GROQ_API_KEY"]
+    groq_api_key = os.environ["GROQ_API_KEY"]
+    #groq_api_key = st.secrets["GROQ_API_KEY"]
     
     sql_chain = get_sql_chain(db)
     template = """
