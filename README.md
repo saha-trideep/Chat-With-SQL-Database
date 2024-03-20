@@ -8,6 +8,7 @@ https://github.com/saha-trideep/Chat-With-SQL-Database/assets/115859105/fc1b39e9
 
 - [Introduction](#introduction)
 - [Features](#features)
+- [Dataset](#dataset)
 - [Usage](#usage)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -15,6 +16,14 @@ https://github.com/saha-trideep/Chat-With-SQL-Database/assets/115859105/fc1b39e9
 ## Introduction
 
 As a data analyst or enthusiast, accessing and analyzing data from databases can often be cumbersome, especially when dealing with SQL queries. The Chat with MySQL AI Assistant simplifies this process by allowing users to interact with the database using natural language, abstracting away the complexities of SQL querying.
+
+
+## Dataset Source
+
+The dataset used in this project was obtained from Kaggle. It is available at [Jobs in Data Dataset on Kaggle](https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data).
+
+The dataset provides information about jobs in the data field, including details such as work year, experience level, employment type, job title, salary, salary currency, employee residence, work setting, company location, company size, and job category.
+
 
 ## Features
 
