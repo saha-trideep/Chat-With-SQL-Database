@@ -20,7 +20,7 @@ As a data analyst or enthusiast, accessing and analyzing data from databases can
 
 ## Dataset
 
-The dataset used in this project was obtained from Kaggle. It is available at [Jobs and salaries in data field 2024]([https://www.kaggle.com/datasets/hummaamqaasim/jobs-in-data/data](https://www.kaggle.com/datasets/murilozangari/jobs-and-salaries-in-data-field-2024)).
+The dataset used in this project was obtained from Kaggle. It is available at [Jobs and salaries in data field 2024](https://www.kaggle.com/datasets/murilozangari/jobs-and-salaries-in-data-field-2024).
 
 The dataset provides information about jobs in the data field, including details such as work year, experience level, employment type, job title, salary, salary currency, employee residence, work setting, company location, company size, and job category.
 
